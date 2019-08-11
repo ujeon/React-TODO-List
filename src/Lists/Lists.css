@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lists-main {
+  width: 100%;
+}
+
+.lists-title {
+  font-size: 2rem;
+}
+
+.lists {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+}

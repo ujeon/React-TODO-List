@@ -1,0 +1,54 @@
+.todo-entry {
+  width: 80%;
+  height: 3%;
+  margin-bottom: 3%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.checked {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #b8b3c6;
+}
+
+.unchecked {
+  display: inline-block;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  color: #190b32;
+}
+
+.todo-buttons {
+  width: 5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  background-color: #bdc2d8;
+  color: #4f5272;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 3%;
+  outline: none;
+}
+
+.delete-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  background-color: #bdc2d8;
+  color: #4f5272;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 3%;
+  outline: none;
+}

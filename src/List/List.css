@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list-entry {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 94%;
+  padding: 3%;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 3%;
+}
+
+.list-entry:hover {
+  background-color: #b8b3c6;
+  transition: background-color 0.5s;
+}
+
+.list-entry-clicked {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 94%;
+  padding: 3%;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 3%;
+  background-color: #b8b3c6;
+  transition: background-color 0.5s;
+}
+
+.list-title {
+  display: inline-block;
+  font-size: 1.5rem;
+  coloe: #190b32;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.list-delete-btn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+}

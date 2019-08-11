@@ -1,0 +1,59 @@
+body,
+html,
+#root {
+  height: 100%;
+  font-size: 16px;
+}
+
+/*********PALETTE*********/
+/****    #B8B3C6      ****/
+/****    #190B32      ****/
+/****    #FCFCFD      ****/
+/****    #4f5272      ****/
+/****    #BDC2D8      ****/
+/****    #6D6B8E      ****/
+/*************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #190b32, #4f5272);
+  text-align: center;
+}
+
+.app-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  padding: 2%;
+  color: #fcfcfd;
+  font-size: 3rem;
+}
+
+.section {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.section-lists {
+  height: 80vh;
+  width: 15%;
+  margin-right: 2%;
+  background-color: #fcfcfd;
+  border-radius: 1.25rem;
+  opacity: 0.9;
+}
+
+.section-todos {
+  height: 80vh;
+  width: 40%;
+  background-color: #fcfcfd;
+  border-radius: 1.25rem;
+  opacity: 0.9;
+}

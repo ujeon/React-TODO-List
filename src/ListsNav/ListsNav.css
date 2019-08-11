@@ -1,0 +1,16 @@
+.lists-nav {
+  padding: 5%;
+  float: right;
+}
+
+.add-button {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #bdc2d8;
+  color: #4f5272;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  outline: none;
+}

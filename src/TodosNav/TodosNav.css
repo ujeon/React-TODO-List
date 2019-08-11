@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.todos-nav {
+  padding: 2%;
+}
+
+.todos-input {
+  width: 80%;
+  padding: 0.5%;
+  font-size: 1.25rem;
+  border: solid #bdc2d8;
+  border-radius: 1.25rem;
+  outline: none;
+}
+
+.todos-input-btn {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #bdc2d8;
+  color: #4f5272;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 3%;
+  outline: none;
+}
